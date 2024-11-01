@@ -1,0 +1,9 @@
+com.company.spaceshooter.launcher-pngs-0 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\pngs\release
+com.company.spaceshooter.launcher-resValues-1 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\resValues\release
+com.company.spaceshooter.launcher-rs-2 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\rs\release
+com.company.spaceshooter.launcher-mergeReleaseResources-3 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.company.spaceshooter.launcher-mergeReleaseResources-4 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.company.spaceshooter.launcher-merged_res-5 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\merged_res\release
+com.company.spaceshooter.launcher-main-6 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\res
+com.company.spaceshooter.launcher-release-7 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\release\res
+com.company.spaceshooter.launcher-packaged_res-8 C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\packaged_res\release

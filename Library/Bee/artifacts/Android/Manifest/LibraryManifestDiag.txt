@@ -1,0 +1,7 @@
+Using template 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer\Apk\UnityManifest.xml'
+
+android.hardware.vulkan.version was added because:
+	One of the graphics devices was Vulkan
+android.hardware.sensor.accelerometer was added because:
+	UnityEngine.Input::get_acceleration was present in:
+		Assembly-CSharp-FeaturesChecked.txt
