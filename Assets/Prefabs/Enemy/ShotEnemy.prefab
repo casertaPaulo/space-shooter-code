@@ -162,5 +162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: -3
+  speed: -5
   impact: {fileID: 5535642111859284671, guid: 1671bcb3423634c4eb00f119924a6165, type: 3}

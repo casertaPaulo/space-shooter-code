@@ -64,13 +64,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ShootigControllerEnemy2.cs" />
     <Compile Include="Assets\Scripts\ShootigController.cs" />
     <Compile Include="Assets\Scripts\Misc\ExplosionController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\ShotController.cs" />
+    <Compile Include="Assets\Scripts\Enemy_2\Enemy2COntroller.cs" />
+    <Compile Include="Assets\Scripts\SpawnEnemy\SpawnPoint.cs" />
     <Compile Include="Assets\Scripts\Enemy\ShotControllerEnemy.cs" />
-    <Compile Include="Assets\Scripts\SpawnPoint.cs" />
+    <Compile Include="Assets\Scripts\Enemy_2\ShotControllerEnemy2.cs" />
     <Compile Include="Assets\Scripts\Misc\ImpactControll.cs" />
     <Compile Include="Assets\Scripts\ShootigControllerEnemy.cs" />
   </ItemGroup>
@@ -953,6 +956,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">

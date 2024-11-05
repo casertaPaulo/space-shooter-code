@@ -2,6 +2,10 @@ Using template 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Playba
 
 android.hardware.vulkan.version was added because:
 	One of the graphics devices was Vulkan
+supports-gl-texture elements added because:
+	TextureSupport was not set to generic
+android.software.home_screen was added because:
+	Target Devices was set to PhonesTabletsAndTVDevicesOnly
 android.hardware.sensor.accelerometer was added because:
 	UnityEngine.Input::get_acceleration was present in:
 		Assembly-CSharp-FeaturesChecked.txt

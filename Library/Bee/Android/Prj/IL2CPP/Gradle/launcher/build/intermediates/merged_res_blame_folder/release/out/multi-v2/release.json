@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.company.spaceshooter.launcher-merged_res-5:/values-v30_values-v30.arsc.flat",
+            "outputFile": "C:\\Users\\lucas\\.gradle\\daemon\\7.5.1\\com.company.spaceshooter.launcher-merged_res-5:\\values-v30_values-v30.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\lucas\\SpaceShooterr\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "com.company.spaceshooter.launcher-merged_res-5:/values-v21_values-v21.arsc.flat",
+            "outputFile": "C:\\Users\\lucas\\.gradle\\daemon\\7.5.1\\com.company.spaceshooter.launcher-merged_res-5:\\values-v21_values-v21.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\lucas\\SpaceShooterr\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v21\\values-v21.xml",
@@ -32,7 +32,7 @@
             ]
         },
         {
-            "outputFile": "com.company.spaceshooter.launcher-merged_res-5:/values_values.arsc.flat",
+            "outputFile": "C:\\Users\\lucas\\.gradle\\daemon\\7.5.1\\com.company.spaceshooter.launcher-merged_res-5:\\values_values.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\lucas\\SpaceShooterr\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
@@ -73,7 +73,45 @@
             ]
         },
         {
-            "outputFile": "com.company.spaceshooter.launcher-merged_res-5:/values-v28_values-v28.arsc.flat",
+            "outputFile": "com.company.spaceshooter.launcher-merged_res-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\lucas\\SpaceShooterr\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "47,-1",
+                        "endOffsets": "100,-1"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "424,474",
+                        "endColumns": "49,67",
+                        "endOffsets": "469,537"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lucas\\SpaceShooterr\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,11,13,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,169,226,282,331,377,542,642,780",
+                        "endLines": "2,3,4,5,6,7,8,12,15,19",
+                        "endColumns": "67,45,56,55,48,45,46,8,8,8",
+                        "endOffsets": "118,164,221,277,326,372,419,637,775,1002"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\lucas\\.gradle\\daemon\\7.5.1\\com.company.spaceshooter.launcher-merged_res-5:\\values-v28_values-v28.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\lucas\\SpaceShooterr\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v28\\values-v28.xml",
@@ -89,7 +127,7 @@
             ]
         },
         {
-            "outputFile": "com.company.spaceshooter.launcher-merged_res-5:/values-v31_values-v31.arsc.flat",
+            "outputFile": "C:\\Users\\lucas\\.gradle\\daemon\\7.5.1\\com.company.spaceshooter.launcher-merged_res-5:\\values-v31_values-v31.arsc.flat",
             "map": [
                 {
                     "source": "C:\\Users\\lucas\\SpaceShooterr\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v31\\values-v31.xml",

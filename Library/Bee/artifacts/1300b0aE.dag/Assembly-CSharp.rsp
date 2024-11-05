@@ -329,6 +329,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
@@ -350,13 +351,16 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Enemy/EnemyController.cs"
 "Assets/Scripts/Enemy/ShotControllerEnemy.cs"
+"Assets/Scripts/Enemy_2/Enemy2COntroller.cs"
+"Assets/Scripts/Enemy_2/ShotControllerEnemy2.cs"
 "Assets/Scripts/Misc/ExplosionController.cs"
 "Assets/Scripts/Misc/ImpactControll.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/ShotController.cs"
 "Assets/Scripts/ShootigController.cs"
 "Assets/Scripts/ShootigControllerEnemy.cs"
-"Assets/Scripts/SpawnPoint.cs"
+"Assets/Scripts/ShootigControllerEnemy2.cs"
+"Assets/Scripts/SpawnEnemy/SpawnPoint.cs"
 -langversion:9.0
 /deterministic
 /optimize+

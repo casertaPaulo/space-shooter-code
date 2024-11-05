@@ -6,9 +6,9 @@ public class EnemyController : MonoBehaviour
 {
 
     public Rigidbody2D rb;
-    [SerializeField] private float speed;
+    [SerializeField] protected float speed;
     [SerializeField] private int life = 1;
-    [SerializeField] private GameObject impact;
+    [SerializeField] private GameObject explosion;
 
     void Start()
     {
@@ -28,15 +28,16 @@ public class EnemyController : MonoBehaviour
 
         if(life <= 0){
             Destroy(gameObject);
-            Instantiate(impact, transform.position, transform.rotation);
+            Instantiate(explosion, transform.position, transform.rotation);
         }
-        
-        Debug.Log("PERDEU VIDA");
     }
 
     private void OnTriggerEnter2D(Collider2D collider2D){
         if(collider2D.CompareTag("Destroyer")){
             Destroy(gameObject);
+        }
+        if(collider2D.CompareTag("Player")){
+            loseLife(10);
         }
     }
 }

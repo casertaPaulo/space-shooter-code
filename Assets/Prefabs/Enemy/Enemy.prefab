@@ -189,7 +189,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   speed: -1
   life: 1
-  impact: {fileID: 2833248011763997298, guid: 47629c9bdd3d2c140ad6719968928466, type: 3}
+  explosion: {fileID: 2833248011763997298, guid: 47629c9bdd3d2c140ad6719968928466, type: 3}
 --- !u!114 &5115292603885479746
 MonoBehaviour:
   m_ObjectHideFlags: 0

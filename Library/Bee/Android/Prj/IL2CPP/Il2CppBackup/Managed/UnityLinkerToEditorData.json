@@ -453,12 +453,6 @@
             "icon": "package/com.unity.modules.audio"
           },
           {
-            "name": "Required by IMGUI Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.imgui"
-          },
-          {
             "name": "Required by InputLegacy Module",
             "scenes": [],
             "dependencyType": 2,
@@ -481,41 +475,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
-          },
-          {
-            "name": "Required by TextCoreFontEngine Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textcorefontengine"
-          },
-          {
-            "name": "Required by TextCoreTextEngine Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textcoretextengine"
-          },
-          {
-            "name": "Required by TextRendering Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textrendering"
           }
         ]
-      },
-      {
-        "name": "IMGUI",
-        "dependencies": []
       },
       {
         "name": "InputLegacy",
-        "dependencies": [
-          {
-            "name": "Required by IMGUI Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.imgui"
-          }
-        ]
+        "dependencies": []
       },
       {
         "name": "JSONSerialize",
@@ -616,12 +581,6 @@
             "icon": "package/com.unity.modules.core"
           },
           {
-            "name": "Required by IMGUI Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.imgui"
-          },
-          {
             "name": "Required by InputLegacy Module",
             "scenes": [],
             "dependencyType": 2,
@@ -644,75 +603,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
-          },
-          {
-            "name": "Required by TextCoreFontEngine Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textcorefontengine"
-          },
-          {
-            "name": "Required by TextCoreTextEngine Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textcoretextengine"
-          },
-          {
-            "name": "Required by TextRendering Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textrendering"
-          }
-        ]
-      },
-      {
-        "name": "TextCoreFontEngine",
-        "dependencies": [
-          {
-            "name": "Required by TextCoreTextEngine Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textcoretextengine"
-          }
-        ]
-      },
-      {
-        "name": "TextCoreTextEngine",
-        "dependencies": [
-          {
-            "name": "Required by IMGUI Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.imgui"
-          }
-        ]
-      },
-      {
-        "name": "TextRendering",
-        "dependencies": [
-          {
-            "name": "Font",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Required by IMGUI Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.imgui"
-          },
-          {
-            "name": "Required by TextCoreFontEngine Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textcorefontengine"
-          },
-          {
-            "name": "Required by TextCoreTextEngine Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.textcoretextengine"
           }
         ]
       }

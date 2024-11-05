@@ -8,8 +8,6 @@ public class ShotControllerEnemy : MonoBehaviour
     [SerializeField] float fireRateMax = 2f;   // Intervalo máximo entre tiros
     [SerializeField] private Transform shotPosition; // Posição do tiro
 
-    private bool isVisible;
-
     void Start()
     {
         // Inicia o primeiro tiro com um atraso aleatório
@@ -17,21 +15,21 @@ public class ShotControllerEnemy : MonoBehaviour
         StartCoroutine(ShootPeriodically(initialDelay)); 
     }
 
-    void Update()
-    {
-        // Checando se o inimigo está visível antes de atirar
-        isVisible = GetComponentInChildren<SpriteRenderer>().isVisible;   
-    }
-
     private IEnumerator ShootPeriodically(float initialDelay)
     {
         // Espera o tempo inicial aleatório
         yield return new WaitForSeconds(initialDelay);
+        
+        while (true) // Loop contínuo para disparos
+        {
+            // Verifica se o inimigo está visível antes de atirar
+            bool isVisible = GetComponentInChildren<SpriteRenderer>().isVisible;
 
-        while (true) {
-            if (isVisible) {
+            if (isVisible) 
+            {
                 Instantiate(shot, shotPosition.position, transform.rotation); // Atira na posição do inimigo
             }
+
             // Define um novo intervalo de tiro aleatório para o próximo tiro
             float fireRate = Random.Range(fireRateMin, fireRateMax);
             yield return new WaitForSeconds(fireRate);
