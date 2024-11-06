@@ -15222,12 +15222,12 @@ struct EnemyController_tBB576F8CA41609F61E7D9AD27B14D49FB5A11C4A  : public MonoB
 struct EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___enemyPrefabs;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___spawnAreaSize;
 	float ___initialSpawnInterval;
 	int32_t ___initialEnemiesPerWave;
 	float ___waveInterval;
 	int32_t ___currentWave;
 	bool ___spawning;
+	float ___sideAdjustmentFactor;
 };
 struct ExplosionController_tECFCF62B319CF993A7D98545B07F0987ED326631  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {

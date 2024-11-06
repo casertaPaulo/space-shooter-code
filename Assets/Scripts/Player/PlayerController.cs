@@ -14,12 +14,12 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+
         rb = GetComponent<Rigidbody2D>();
 
         // Calcula os limites da câmera
         CalculateCameraBounds();
         
-        // Pegando metade da largura da sprite do player
         SpriteRenderer spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         halfWidth = spriteRenderer.bounds.size.x / 2;
     }
@@ -28,19 +28,15 @@ public class PlayerController : MonoBehaviour
     {
         // Capture o movimento horizontal do teclado
         float horizontal = Input.GetAxis("Horizontal");
-        // Capture a inclinação do celular
         float tilt = Input.acceleration.x;
 
         // Determine a direção de movimento
-        float moveInput = horizontal + tilt; // Combina o controle do teclado e do tilt
+        float moveInput = horizontal + tilt; 
 
-        // Suavização do movimento
-        moveInput = Mathf.Clamp(moveInput, -1f, 1f); // Limita a entrada entre -1 e 1
-
-        // Define a velocidade do Rigidbody
+        moveInput = Mathf.Clamp(moveInput, -1f, 1f); 
+        float adjustedSpeed = speed * (1 + Mathf.Abs(tilt));
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
-        // Limitar o movimento do player dentro dos limites da tela
         float clampedX = Mathf.Clamp(transform.position.x, leftBound + halfWidth, rightBound - halfWidth);
         transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
     }
@@ -53,11 +49,11 @@ public class PlayerController : MonoBehaviour
         float screenHeightInWorldUnits = 2f * camera.orthographicSize;
         float screenWidthInWorldUnits = screenHeightInWorldUnits * camera.aspect;
 
-        // Calcula os limites da câmera
         leftBound = camera.transform.position.x - screenWidthInWorldUnits / 2;
         rightBound = camera.transform.position.x + screenWidthInWorldUnits / 2;
     }
 
+    //Perder vida
     public void loseLife(int damage)
     {
         life -= damage;
@@ -69,8 +65,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
+        //Perde vida quando encostar em um inimigo
         if (collider2D.CompareTag("Enemy"))
         {
             loseLife(1);

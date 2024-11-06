@@ -23,10 +23,11 @@ public class EnemyController : MonoBehaviour
 
     //Método para perder vida
     public void loseLife(int damage){
-
-        life -= 1;
+        life -= damage;
 
         if(life <= 0){
+            //Quando morrer adicionar pontuação para o player
+            ScoreController.instance.addScore(5);
             Destroy(gameObject);
             Instantiate(explosion, transform.position, transform.rotation);
         }

@@ -55,3 +55,6 @@ TagManager:
   - name: Impact
     uniqueID: 2006774279
     locked: 0
+  - name: Score
+    uniqueID: 865168307
+    locked: 0

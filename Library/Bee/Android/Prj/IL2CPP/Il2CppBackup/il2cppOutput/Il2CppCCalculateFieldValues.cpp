@@ -11984,12 +11984,12 @@ struct EnemyController_tBB576F8CA41609F61E7D9AD27B14D49FB5A11C4A  : public MonoB
 struct EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___enemyPrefabs;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___spawnAreaSize;
 	float ___initialSpawnInterval;
 	int32_t ___initialEnemiesPerWave;
 	float ___waveInterval;
 	int32_t ___currentWave;
 	bool ___spawning;
+	float ___sideAdjustmentFactor;
 };
 struct PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -17639,7 +17639,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2183[6] =
 	static_cast<int32_t>(offsetof(U3CSpawnWaveU3Ed__8_t5C889D91534686627B7C1056CB86B6FE9C80DEF0, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CSpawnWaveU3Ed__8_t5C889D91534686627B7C1056CB86B6FE9C80DEF0, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CSpawnWaveU3Ed__8_t5C889D91534686627B7C1056CB86B6FE9C80DEF0, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CSpawnWaveU3Ed__8_t5C889D91534686627B7C1056CB86B6FE9C80DEF0, ___U3CenemiesToSpawnU3E5__2)),static_cast<int32_t>(offsetof(U3CSpawnWaveU3Ed__8_t5C889D91534686627B7C1056CB86B6FE9C80DEF0, ___U3CspawnIntervalU3E5__3)),static_cast<int32_t>(offsetof(U3CSpawnWaveU3Ed__8_t5C889D91534686627B7C1056CB86B6FE9C80DEF0, ___U3CiU3E5__4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2184[7] = 
 {
-	static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___enemyPrefabs)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___spawnAreaSize)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___initialSpawnInterval)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___initialEnemiesPerWave)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___waveInterval)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___currentWave)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___spawning)),};
+	static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___enemyPrefabs)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___initialSpawnInterval)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___initialEnemiesPerWave)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___waveInterval)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___currentWave)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___spawning)),static_cast<int32_t>(offsetof(EnemySpawner_tBA941A38B8AC67CF1D99E92E3BB0CC9C7A14A177, ___sideAdjustmentFactor)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2185[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

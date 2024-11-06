@@ -788,8 +788,7 @@
         780,
         781,
         782,
-        783,
-        784
+        783
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -17517,21 +17516,6 @@
       "DebugActionIndex": 707
     },
     {
-      "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "DisplayName": "Copying icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "Outputs": [
-        "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "ToBuildDependencies": [
-        8
-      ],
-      "DebugActionIndex": 708
-    },
-    {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "DisplayName": "Copying Mono.Security.dll",
       "ActionType": "CopyFiles",
@@ -17544,7 +17528,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 709
+      "DebugActionIndex": 708
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -17559,7 +17543,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 710
+      "DebugActionIndex": 709
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -17574,7 +17558,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 711
+      "DebugActionIndex": 710
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -17589,7 +17573,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 712
+      "DebugActionIndex": 711
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -17604,7 +17588,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 713
+      "DebugActionIndex": 712
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -17619,7 +17603,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 714
+      "DebugActionIndex": 713
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -17634,7 +17618,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 715
+      "DebugActionIndex": 714
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -17649,7 +17633,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 716
+      "DebugActionIndex": 715
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -17664,7 +17648,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 717
+      "DebugActionIndex": 716
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -17679,7 +17663,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 718
+      "DebugActionIndex": 717
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -17694,7 +17678,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 719
+      "DebugActionIndex": 718
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -17709,7 +17693,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 720
+      "DebugActionIndex": 719
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -17724,7 +17708,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 721
+      "DebugActionIndex": 720
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -17739,7 +17723,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 722
+      "DebugActionIndex": 721
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -17754,7 +17738,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 723
+      "DebugActionIndex": 722
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -17769,7 +17753,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 724
+      "DebugActionIndex": 723
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -17784,7 +17768,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 725
+      "DebugActionIndex": 724
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -17799,7 +17783,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 726
+      "DebugActionIndex": 725
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -17814,7 +17798,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 727
+      "DebugActionIndex": 726
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -17829,7 +17813,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 728
+      "DebugActionIndex": 727
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll",
@@ -17844,7 +17828,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 729
+      "DebugActionIndex": 728
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb",
@@ -17859,7 +17843,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 730
+      "DebugActionIndex": 729
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -17874,7 +17858,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 731
+      "DebugActionIndex": 730
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -17889,7 +17873,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 732
+      "DebugActionIndex": 731
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -17904,7 +17888,7 @@
       "ToBuildDependencies": [
         8
       ],
-      "DebugActionIndex": 733
+      "DebugActionIndex": 732
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -17916,7 +17900,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 734
+      "DebugActionIndex": 733
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_nj6h.info",
@@ -17929,7 +17913,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_nj6h.info"
       ],
-      "DebugActionIndex": 735
+      "DebugActionIndex": 734
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+7 others)",
@@ -17964,12 +17948,12 @@
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        735
+        734
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 736
+      "DebugActionIndex": 735
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -17981,7 +17965,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 737
+      "DebugActionIndex": 736
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -17993,7 +17977,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 738
+      "DebugActionIndex": 737
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -18005,7 +17989,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 739
+      "DebugActionIndex": 738
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -18017,7 +18001,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 740
+      "DebugActionIndex": 739
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -18029,7 +18013,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 741
+      "DebugActionIndex": 740
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml",
@@ -18041,7 +18025,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml"
       ],
-      "DebugActionIndex": 742
+      "DebugActionIndex": 741
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -18053,7 +18037,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 743
+      "DebugActionIndex": 742
     },
     {
       "Annotation": "WriteText C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml",
@@ -18066,7 +18050,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml"
       ],
-      "DebugActionIndex": 744
+      "DebugActionIndex": 743
     },
     {
       "Annotation": "WriteText C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -18079,7 +18063,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
-      "DebugActionIndex": 745
+      "DebugActionIndex": 744
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -18091,7 +18075,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 746
+      "DebugActionIndex": 745
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -18103,7 +18087,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 747
+      "DebugActionIndex": 746
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -18115,7 +18099,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 748
+      "DebugActionIndex": 747
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -18127,7 +18111,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 749
+      "DebugActionIndex": 748
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -18139,7 +18123,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 750
+      "DebugActionIndex": 749
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -18151,7 +18135,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 751
+      "DebugActionIndex": 750
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -18163,7 +18147,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 752
+      "DebugActionIndex": 751
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -18175,7 +18159,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 753
+      "DebugActionIndex": 752
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -18183,13 +18167,13 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        753,
-        755,
-        767,
-        774
+        752,
+        754,
+        766,
+        773
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 754
+      "DebugActionIndex": 753
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -18201,7 +18185,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 755
+      "DebugActionIndex": 754
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
@@ -18214,7 +18198,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 756
+      "DebugActionIndex": 755
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -18272,12 +18256,12 @@
         36,
         38,
         40,
-        756
+        755
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 757
+      "DebugActionIndex": 756
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_x24n.info",
@@ -18290,7 +18274,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_x24n.info"
       ],
-      "DebugActionIndex": 758
+      "DebugActionIndex": 757
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/lucas/SpaceShooterr/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -18341,12 +18325,12 @@
       ],
       "ToBuildDependencies": [
         8,
-        758
+        757
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 759
+      "DebugActionIndex": 758
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o",
@@ -18361,11 +18345,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        759
+        758
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 760
+      "DebugActionIndex": 759
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/lucas/SpaceShooterr/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -18390,7 +18374,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 761
+      "DebugActionIndex": 760
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o",
@@ -18405,11 +18389,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        761
+        760
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 762
+      "DebugActionIndex": 761
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so",
@@ -18427,12 +18411,12 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        760,
-        762
+        759,
+        761
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 763
+      "DebugActionIndex": 762
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so",
@@ -18446,11 +18430,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        763
+        762
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 764
+      "DebugActionIndex": 763
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so",
@@ -18464,11 +18448,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        764
+        763
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 765
+      "DebugActionIndex": 764
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so",
@@ -18482,11 +18466,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        763
+        762
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 766
+      "DebugActionIndex": 765
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -18502,12 +18486,12 @@
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        765,
-        766
+        764,
+        765
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 767
+      "DebugActionIndex": 766
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -18522,11 +18506,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        759
+        758
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 768
+      "DebugActionIndex": 767
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -18541,11 +18525,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        761
+        760
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 769
+      "DebugActionIndex": 768
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -18563,12 +18547,12 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        768,
-        769
+        767,
+        768
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 770
+      "DebugActionIndex": 769
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -18582,11 +18566,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        770
+        769
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 771
+      "DebugActionIndex": 770
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -18600,11 +18584,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        771
+        770
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 772
+      "DebugActionIndex": 771
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -18618,11 +18602,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        770
+        769
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 773
+      "DebugActionIndex": 772
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -18638,12 +18622,12 @@
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        772,
-        773
+        771,
+        772
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 774
+      "DebugActionIndex": 773
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -18655,7 +18639,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 775
+      "DebugActionIndex": 774
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libil2cpp.so",
@@ -18670,7 +18654,7 @@
       "ToBuildDependencies": [
         323
       ],
-      "DebugActionIndex": 776
+      "DebugActionIndex": 775
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -18683,9 +18667,9 @@
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        765
+        764
       ],
-      "DebugActionIndex": 777
+      "DebugActionIndex": 776
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -18697,7 +18681,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 778
+      "DebugActionIndex": 777
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -18712,7 +18696,7 @@
       "ToBuildDependencies": [
         606
       ],
-      "DebugActionIndex": 779
+      "DebugActionIndex": 778
     },
     {
       "Annotation": "CopyFiles C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -18725,9 +18709,9 @@
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        772
+        771
       ],
-      "DebugActionIndex": 780
+      "DebugActionIndex": 779
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_stsh.info",
@@ -18740,7 +18724,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_stsh.info"
       ],
-      "DebugActionIndex": 781
+      "DebugActionIndex": 780
     },
     {
       "Annotation": "GuidGenerator C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -18770,12 +18754,12 @@
       "ToBuildDependencies": [
         5,
         41,
-        781
+        780
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 782
+      "DebugActionIndex": 781
     },
     {
       "Annotation": "WriteText C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
@@ -18788,7 +18772,7 @@
       "Outputs": [
         "C:/Users/lucas/SpaceShooterr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 783
+      "DebugActionIndex": 782
     },
     {
       "Annotation": "Player",
@@ -18937,7 +18921,7 @@
         731,
         732,
         733,
-        734,
+        735,
         736,
         737,
         738,
@@ -18955,16 +18939,15 @@
         750,
         751,
         752,
-        753,
-        755,
-        757,
-        767,
-        774,
-        782,
-        783
+        754,
+        756,
+        766,
+        773,
+        781,
+        782
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 784
+      "DebugActionIndex": 783
     }
   ],
   "FileSignatures": [
@@ -19507,8 +19490,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 754,
-          "Player": 784
+          "SourceBuildPlayerFiles": 753,
+          "Player": 783
         }
 ,  "DefaultNodes": [
     0
