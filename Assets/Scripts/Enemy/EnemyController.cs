@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyController : MonoBehaviour
 {
 
@@ -9,6 +10,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] protected float speed;
     [SerializeField] private int life = 1;
     [SerializeField] private GameObject explosion;
+    [SerializeField] private GameObject powerUp;
+    [SerializeField] private float powerUpChance = 0.1f;
 
     void Start()
     {
@@ -39,6 +42,17 @@ public class EnemyController : MonoBehaviour
         }
         if(collider2D.CompareTag("Player")){
             loseLife(10);
+        }
+        if(collider2D.CompareTag("ShotPlayer")){
+            powerUpSpawn();
+        }
+    }
+
+    private void powerUpSpawn(){
+        float randomValue = Random.Range(0f ,1f);
+        Debug.Log(randomValue);
+        if(randomValue <= powerUpChance){
+            Instantiate(powerUp, transform.position, Quaternion.identity);
         }
     }
 }

@@ -6,7 +6,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float speed = 10.0f; 
     [SerializeField] int life = 3;
     [SerializeField] GameObject explosion;
-
+    [SerializeField] int level = 1;
+    private ShotController shotController;
     private Rigidbody2D rb;
     private float leftBound;
     private float rightBound;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     {
 
         rb = GetComponent<Rigidbody2D>();
+        shotController = GetComponent<ShotController>();
 
         // Calcula os limites da câmera
         CalculateCameraBounds();
@@ -53,7 +55,7 @@ public class PlayerController : MonoBehaviour
         rightBound = camera.transform.position.x + screenWidthInWorldUnits / 2;
     }
 
-    //Perder vida
+    // Perder vida
     public void loseLife(int damage)
     {
         life -= damage;
@@ -65,6 +67,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Ganha level
+    public void upLevel(){
+        level += 1;
+        shotController.fireRate -= 0.05f;
+        
+    }
+
     
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
@@ -72,6 +81,12 @@ public class PlayerController : MonoBehaviour
         if (collider2D.CompareTag("Enemy"))
         {
             loseLife(1);
+        }
+
+        if(collider2D.CompareTag("PowerUp"))
+        {
+            upLevel();
+            Debug.Log(level);
         }
     }
 }

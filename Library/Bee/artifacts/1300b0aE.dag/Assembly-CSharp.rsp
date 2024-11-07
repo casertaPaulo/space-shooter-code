@@ -357,6 +357,7 @@
 "Assets/Scripts/Misc/ImpactControll.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/ShotController.cs"
+"Assets/Scripts/PowerUp/PowerUpController.cs"
 "Assets/Scripts/Score/ScoreController.cs"
 "Assets/Scripts/Score/ScoreDisplay.cs"
 "Assets/Scripts/Shot/ShootigController.cs"

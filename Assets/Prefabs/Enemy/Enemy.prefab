@@ -190,6 +190,8 @@ MonoBehaviour:
   speed: -0.7
   life: 1
   explosion: {fileID: 2833248011763997298, guid: 47629c9bdd3d2c140ad6719968928466, type: 3}
+  powerUp: {fileID: 1771269617593319941, guid: 8abc882b7cb6c66498d432fb16f5ed0c, type: 3}
+  powerUpChance: 0.1
 --- !u!114 &5115292603885479746
 MonoBehaviour:
   m_ObjectHideFlags: 0

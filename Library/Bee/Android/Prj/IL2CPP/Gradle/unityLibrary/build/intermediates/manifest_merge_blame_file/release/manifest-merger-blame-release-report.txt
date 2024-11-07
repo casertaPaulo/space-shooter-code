@@ -33,89 +33,101 @@
 19-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-60
 20        android:required="false" />
 20-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:61-85
-21
-22    <application android:extractNativeLibs="true" >
-22-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-23:17
-22-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:16-48
-23        <meta-data
-23-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:5-69
-24            android:name="unity.splash-mode"
-24-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
-25            android:value="0" />
-25-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:49-66
-26        <meta-data
-26-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-74
-27            android:name="unity.splash-enable"
-27-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-50
-28            android:value="True" />
-28-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+21    <uses-feature
+21-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-99
+22        android:name="android.hardware.touchscreen.multitouch"
+22-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-71
+23        android:required="false" />
+23-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:72-96
+24    <uses-feature
+24-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-108
+25        android:name="android.hardware.touchscreen.multitouch.distinct"
+25-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-80
+26        android:required="false" />
+26-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:81-105
+27
+28    <application android:extractNativeLibs="true" >
+28-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-25:17
+28-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
 29        <meta-data
-29-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-78
-30            android:name="unity.launch-fullscreen"
-30-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-54
-31            android:value="True" />
-31-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+29-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+30            android:name="unity.splash-mode"
+30-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+31            android:value="0" />
+31-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:49-66
 32        <meta-data
-32-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-84
-33            android:name="unity.render-outside-safearea"
-33-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-60
+32-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+33            android:name="unity.splash-enable"
+33-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-50
 34            android:value="True" />
-34-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:61-81
+34-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:51-71
 35        <meta-data
-35-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-81
-36            android:name="notch.config"
-36-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-43
-37            android:value="portrait|landscape" />
-37-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+35-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-78
+36            android:name="unity.launch-fullscreen"
+36-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-54
+37            android:value="True" />
+37-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:55-75
 38        <meta-data
 38-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
-39            android:name="unity.auto-report-fully-drawn"
+39            android:name="unity.render-outside-safearea"
 39-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-60
-40            android:value="true" />
+40            android:value="True" />
 40-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:61-81
-41
-42        <activity
-42-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-22:16
-43            android:name="com.unity3d.player.UnityPlayerActivity"
-43-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-68
-44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-44-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:181-362
-45            android:exported="true"
-45-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:434-457
-46            android:hardwareAccelerated="false"
-46-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:398-433
-47            android:launchMode="singleTask"
-47-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:149-180
-48            android:resizeableActivity="false"
-48-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:363-397
-49            android:screenOrientation="landscape"
-49-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-148
-50            android:theme="@style/UnityThemeSelector" >
-50-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:69-110
-51            <intent-filter>
-51-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-19:23
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-69
-52-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:19-66
-53
-54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-61
-54-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-58
-55            </intent-filter>
-56
-57            <meta-data
-57-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:7-82
-58                android:name="unityplayer.UnityActivity"
-58-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:18-58
-59                android:value="true" />
-59-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:59-79
-60            <meta-data
-60-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-70
-61                android:name="notch_support"
-61-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:18-46
-62                android:value="true" />
-62-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:47-67
-63        </activity>
-64    </application>
-65
-66</manifest>
+41        <meta-data
+41-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+42            android:name="notch.config"
+42-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+43            android:value="portrait|landscape" />
+43-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+44        <meta-data
+44-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+45            android:name="unity.auto-report-fully-drawn"
+45-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+46            android:value="true" />
+46-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+47
+48        <activity
+48-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-24:16
+49            android:name="com.unity3d.player.UnityPlayerActivity"
+49-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-68
+50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+50-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:181-362
+51            android:exported="true"
+51-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:434-457
+52            android:hardwareAccelerated="false"
+52-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:398-433
+53            android:launchMode="singleTask"
+53-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:149-180
+54            android:resizeableActivity="false"
+54-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:363-397
+55            android:screenOrientation="landscape"
+55-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:111-148
+56            android:theme="@style/UnityThemeSelector" >
+56-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:69-110
+57            <intent-filter>
+57-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:7-21:23
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-69
+58-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:19-66
+59
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-61
+60-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-58
+61            </intent-filter>
+62
+63            <meta-data
+63-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-82
+64                android:name="unityplayer.UnityActivity"
+64-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:18-58
+65                android:value="true" />
+65-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:59-79
+66            <meta-data
+66-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:7-70
+67                android:name="notch_support"
+67-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:18-46
+68                android:value="true" />
+68-->C:\Users\lucas\SpaceShooterr\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:47-67
+69        </activity>
+70    </application>
+71
+72</manifest>

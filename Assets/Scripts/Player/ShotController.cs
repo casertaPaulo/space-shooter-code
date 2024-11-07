@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShotController : MonoBehaviour
 {
     [SerializeField] GameObject shot;
-    [SerializeField] float fireRate = 0.5f; // Tempo entre os tiros
+    [SerializeField] public float fireRate = 0.5f; // Tempo entre os tiros
     [SerializeField] private Transform shotPosition;
    
     // Start is called before the first frame update
@@ -27,4 +27,6 @@ public class ShotController : MonoBehaviour
             yield return new WaitForSeconds(fireRate); // Espera o tempo especificado antes de atirar novamente
         }
     }
+
+
 }
