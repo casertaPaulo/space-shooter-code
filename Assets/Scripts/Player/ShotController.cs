@@ -5,12 +5,18 @@ using UnityEngine;
 public class ShotController : MonoBehaviour
 {
     [SerializeField] GameObject shot;
+    [SerializeField] GameObject shot2;
     [SerializeField] public float fireRate = 0.5f; // Tempo entre os tiros
     [SerializeField] private Transform shotPosition;
+    [SerializeField] private Transform shot2Position1;
+    [SerializeField] private Transform shot2Position2;
+
+    private PlayerController playerController;
    
     // Start is called before the first frame update
     void Start()
     {
+        playerController = GetComponent<PlayerController>();
         StartCoroutine(ShootPeriodically()); 
     }
 
@@ -21,12 +27,19 @@ public class ShotController : MonoBehaviour
     }
     private IEnumerator ShootPeriodically()
     {
-        while (true) // Loop infinito para atirar continuamente
-        {
-            Instantiate(shot, shotPosition.position, transform.rotation); // Atira na posição da nave
-            yield return new WaitForSeconds(fireRate); // Espera o tempo especificado antes de atirar novamente
+        while(true){
+            if(playerController.level < 3){
+                    Instantiate(shot, shotPosition.position, transform.rotation); // Atira na posição da nave
+                    yield return new WaitForSeconds(fireRate); // Espera o tempo especificado antes de atirar novamente
+                }
+                else if(playerController.level < 5){
+                   Instantiate(shot2, shot2Position1.position, transform.rotation);
+                   Instantiate(shot2, shot2Position2.position, transform.rotation);
+                   yield return new WaitForSeconds(fireRate);
+                }
+            else{
+                break;
+            }
         }
     }
-
-
 }

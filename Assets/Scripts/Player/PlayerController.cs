@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float speed = 10.0f; 
     [SerializeField] int life = 3;
     [SerializeField] GameObject explosion;
-    [SerializeField] int level = 1;
+    [SerializeField] public int level = 1;
     private ShotController shotController;
     private Rigidbody2D rb;
     private float leftBound;
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
     public void upLevel(){
         level += 1;
         shotController.fireRate -= 0.05f;
-        
+        speed += 0.5f; 
     }
 
     

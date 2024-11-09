@@ -24,6 +24,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
 
+	void RegisterModule_ParticleSystem();
+	RegisterModule_ParticleSystem();
+
 	void RegisterModule_Physics();
 	RegisterModule_Physics();
 
@@ -122,6 +125,8 @@ class Texture2DArray; template <> void RegisterUnityClass<Texture2DArray>(const 
 class Texture3D; template <> void RegisterUnityClass<Texture3D>(const char*);
 class TimeManager; template <> void RegisterUnityClass<TimeManager>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
+class ParticleSystem; template <> void RegisterUnityClass<ParticleSystem>(const char*);
+class ParticleSystemRenderer; template <> void RegisterUnityClass<ParticleSystemRenderer>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
@@ -141,7 +146,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 78 non stripped classes
+	//Total: 80 non stripped classes
 	//0. AnimationClip
 	RegisterUnityClass<AnimationClip>("Animation");
 	//1. Animator
@@ -270,33 +275,37 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<TimeManager>("Core");
 	//63. Transform
 	RegisterUnityClass<Transform>("Core");
-	//64. Collider
+	//64. ParticleSystem
+	RegisterUnityClass<ParticleSystem>("ParticleSystem");
+	//65. ParticleSystemRenderer
+	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
+	//66. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//65. PhysicsManager
+	//67. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//66. Rigidbody
+	//68. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//67. BoxCollider2D
+	//69. BoxCollider2D
 	RegisterUnityClass<BoxCollider2D>("Physics2D");
-	//68. CapsuleCollider2D
+	//70. CapsuleCollider2D
 	RegisterUnityClass<CapsuleCollider2D>("Physics2D");
-	//69. CircleCollider2D
+	//71. CircleCollider2D
 	RegisterUnityClass<CircleCollider2D>("Physics2D");
-	//70. Collider2D
+	//72. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//71. Physics2DSettings
+	//73. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//72. Rigidbody2D
+	//74. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//73. Font
+	//75. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//74. TextMesh
+	//76. TextMesh
 	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//75. Canvas
+	//77. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//76. CanvasGroup
+	//78. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//77. CanvasRenderer
+	//79. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

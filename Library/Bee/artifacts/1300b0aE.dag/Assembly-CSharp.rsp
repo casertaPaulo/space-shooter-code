@@ -364,6 +364,7 @@
 "Assets/Scripts/Shot/ShootigControllerEnemy.cs"
 "Assets/Scripts/Shot/ShootigControllerEnemy2.cs"
 "Assets/Scripts/SpawnEnemy/SpawnPoint.cs"
+"Assets/Scripts/Timer/TimerController.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

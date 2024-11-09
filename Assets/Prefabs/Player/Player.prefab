@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2103984165324522422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2818433332540254797}
+  m_Layer: 0
+  m_Name: shotPosition2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2818433332540254797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103984165324522422}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.312, y: 0.018, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 873738633712527833}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2317979370181367325
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,8 +40,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4705527715931654304}
-  m_Layer: 6
-  m_Name: ShotPosition
+  m_Layer: 0
+  m_Name: shotPosition
   m_TagString: Untagged
   m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -31,6 +62,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 873738633712527833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3661238278287339842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4725047433918377413}
+  m_Layer: 0
+  m_Name: shotPosition2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4725047433918377413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3661238278287339842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.312, y: 0.018, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 873738633712527833}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6309016301131006059
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,7 +104,7 @@ GameObject:
   - component: {fileID: 3022597529576429212}
   - component: {fileID: 8597307119201128604}
   - component: {fileID: 8809292784554444927}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +212,7 @@ GameObject:
   - component: {fileID: 4372049898823066837}
   - component: {fileID: 860887183771272248}
   - component: {fileID: 4975192189618814359}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -166,12 +228,14 @@ Transform:
   m_GameObject: {fileID: 7468926690662185079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4, z: 0}
+  m_LocalPosition: {x: -0.08365609, y: -3.5049229, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3022597529576429212}
   - {fileID: 4705527715931654304}
+  - {fileID: 4725047433918377413}
+  - {fileID: 2818433332540254797}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2892612179929125824
@@ -187,8 +251,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  life: 10
+  life: 100
   explosion: {fileID: 2833248011763997298, guid: 47629c9bdd3d2c140ad6719968928466, type: 3}
+  level: 1
 --- !u!50 &4372049898823066837
 Rigidbody2D:
   serializedVersion: 4
@@ -229,8 +294,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shot: {fileID: 2122439089198351097, guid: d41080007f72b264f9f5d0d8c3e5d1f5, type: 3}
+  shot2: {fileID: 0}
   fireRate: 0.5
   shotPosition: {fileID: 4705527715931654304}
+  shot2Position1: {fileID: 0}
+  shot2Position2: {fileID: 0}
 --- !u!70 &4975192189618814359
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -260,7 +328,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.0020626783}

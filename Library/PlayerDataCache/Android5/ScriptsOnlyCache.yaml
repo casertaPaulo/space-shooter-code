@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - ExplosionController
     - ImpactControll
     - PlayerController
+    - PowerUpController
     - ScoreController
     - ScoreDisplay
     - ShootingEnemy
@@ -141,11 +142,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21054}
     - Class: 114
-      Script: {instanceID: 21880}
+      Script: {instanceID: 21590}
     - Class: 114
-      Script: {instanceID: 22020}
+      Script: {instanceID: 21882}
     - Class: 114
-      Script: {instanceID: 22136}
+      Script: {instanceID: 22022}
+    - Class: 114
+      Script: {instanceID: 22138}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,6 +156,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -899,7 +906,7 @@ ScriptsOnlyBuild:
     className: TextMeshSpawner
   - hash:
       serializedVersion: 2
-      Hash: 69b977446e39a647d1cf3053efe995f1
+      Hash: c999f5051cd510f183e1dd81732f606d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Enemy2COntroller
@@ -947,7 +954,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: d0b53e0d0de272dcea97b96cd6fbf334
+      Hash: dadafef4d12e9ef4abc262bb2a04e370
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -1067,6 +1074,12 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
+      Hash: 869ee7190372298db8552f31ec48d741
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PowerUpController
+  - hash:
+      serializedVersion: 2
       Hash: afb7b65d28d5a7423e69a1b076be0064
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1163,7 +1176,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: b7501ddf8e3627d5a29e328b204aae7b
+      Hash: e599512f4f96ad26170c394efd51002b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EnemyController
