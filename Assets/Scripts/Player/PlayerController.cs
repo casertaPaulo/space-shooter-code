@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] int life = 3;
     [SerializeField] GameObject explosion;
     [SerializeField] public int level = 1;
+    private int levelLimit = 7;
     private ShotController shotController;
     private Rigidbody2D rb;
     private float leftBound;
@@ -69,9 +70,11 @@ public class PlayerController : MonoBehaviour
 
     // Ganha level
     public void upLevel(){
-        level += 1;
-        shotController.fireRate -= 0.05f;
-        speed += 0.5f; 
+        if(level < levelLimit){
+            level += 1;
+            shotController.fireRate -= 0.03f;
+            speed += 0.5f; 
+        }
     }
 
     

@@ -29,5 +29,8 @@ public class PowerUpController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if(collider2D.CompareTag("Destroyer")){
+            Destroy(gameObject);
+        }
     }
 }

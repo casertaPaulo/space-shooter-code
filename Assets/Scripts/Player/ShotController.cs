@@ -10,7 +10,7 @@ public class ShotController : MonoBehaviour
     [SerializeField] private Transform shotPosition;
     [SerializeField] private Transform shot2Position1;
     [SerializeField] private Transform shot2Position2;
-
+    public AudioSource audioSource;
     private PlayerController playerController;
    
     // Start is called before the first frame update
@@ -28,14 +28,20 @@ public class ShotController : MonoBehaviour
     private IEnumerator ShootPeriodically()
     {
         while(true){
-            if(playerController.level < 3){
-                    Instantiate(shot, shotPosition.position, transform.rotation); // Atira na posição da nave
+            if(playerController.level < 4){
+                    Instantiate(shot, shotPosition.position, transform.rotation);
+                    audioSource.Play();// Atira na posição da nave
                     yield return new WaitForSeconds(fireRate); // Espera o tempo especificado antes de atirar novamente
                 }
-                else if(playerController.level < 5){
+                else if(playerController.level < 6){
                    Instantiate(shot2, shot2Position1.position, transform.rotation);
                    Instantiate(shot2, shot2Position2.position, transform.rotation);
                    yield return new WaitForSeconds(fireRate);
+                }else if(playerController.level >= 6){
+                    Instantiate(shot2, shot2Position1.position, transform.rotation);
+                    Instantiate(shot2, shotPosition.position, transform.rotation);
+                    Instantiate(shot2, shot2Position2.position, transform.rotation);
+                    yield return new WaitForSeconds(fireRate);
                 }
             else{
                 break;

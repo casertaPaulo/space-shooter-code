@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private int life = 1;
     [SerializeField] private GameObject explosion;
     [SerializeField] private GameObject powerUp;
-    [SerializeField] private float powerUpChance = 0.1f;
+    [SerializeField] private float powerUpChance = 0.05f;
 
     void Start()
     {
@@ -33,6 +33,7 @@ public class EnemyController : MonoBehaviour
             ScoreController.instance.addScore(5);
             Destroy(gameObject);
             Instantiate(explosion, transform.position, transform.rotation);
+            powerUpSpawn();
         }
     }
 
@@ -42,9 +43,6 @@ public class EnemyController : MonoBehaviour
         }
         if(collider2D.CompareTag("Player")){
             loseLife(10);
-        }
-        if(collider2D.CompareTag("ShotPlayer")){
-            powerUpSpawn();
         }
     }
 
